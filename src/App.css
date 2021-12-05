@@ -1,0 +1,40 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+   
+}
+.card {
+    display: grid;
+    grid-template-rows: max-content 50px 1fr;
+    height: 50px;
+}
+
+.class-food{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+img {
+    border-radius: 8px;
+  }
+.coul {
+ background-color:green;
+color:white;
+transition: background-color 1s;
+}
+  
+.message{
+     text-align: center;
+     color: tomato;
+ } 
+ .message1{
+    text-align: center;
+    color:blueviolet;
+} 
+
+.body{
+    color:black;
+    
+}
+  
